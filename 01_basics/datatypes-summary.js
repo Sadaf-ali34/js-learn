@@ -43,3 +43,20 @@ const myFunction = function(){
 
 console.log(typeof outsideTemp)
 console.log(typeof bigNumber)
+
+//XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+//Stack and heap Memeory
+//Stack--> Primitive || Heap --> Non Primitive
+
+let myMailId = "sadaf@google.com";
+let userOne = {
+    email : "sadafnew@google.com",
+    upi:  "user@ybl"
+}
+
+let userTwo = userOne
+userTwo.email = "sadafnew@google.com"
+
+console.log(userOne.email)
+console.log(userTwo.email)
